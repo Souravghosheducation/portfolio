@@ -1,0 +1,128 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Bai Jamjuree', sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+
+}
+.no-gutters {
+  background: #FDC830;
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+background: linear-gradient(to right, #F37335, #FDC830);
+
+}
+#gut {
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+
+}
+
+.wrappper1head{
+  -webkit-animation: fade-in 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+  animation: fade-in 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.wrappper1head {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.mb-3{
+  margin: auto;
+}
+.col-md-4{
+  padding: 15px;
+}
+.col-md-4{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  .back{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-image: url('back-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-left: 2%;
+    padding-right: 5x;
+  }
+  .top-heading{
+    display: flex;
+    height: 80px;
+    padding-top: 10px;
+    width: 100%;
+
+  }
+  .heading-main1{
+    font-size: 35px;
+    padding-left: 6%;
+    width: 100%;
+    font-weight: bolder;
+  }
+  .top-wrapper{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    position: fixed;
+    z-index: +1;
+    background-color: white;
+  }
+  .back-wrap{
+  width: 100%;
+  height: 80px;
+  margin-top: 5px;
+}
+  .mb-3{
+    transition: transform .8s;
+  }
+  .mb-3:hover  {
+    cursor: pointer;
+    transform: scale(1.06);
+  }
+
+  @media (max-width: 700px){
+    .top-wrapper{
+      display: flex;
+      height: 100px;
+      padding-top: 10px;
+      width: 100%;
+    }
+    .back-wrap{
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+  }
+    .heading-main1{
+      font-size: 25px;
+      padding-left: 6%;
+
+    }
+  }
