@@ -163,11 +163,13 @@ canvas {
     opacity: 1;
   }
 }
-.on-mob{
+
+.on-mob {
   display: none !important;
 }
-@media only screen and (max-width: 1100px){
-  .on-mob{
+
+@media only screen and (max-width: 1100px) {
+  .on-mob {
     display: block !important;
     z-index: +10;
     margin: auto;
@@ -177,13 +179,15 @@ canvas {
     background-color: black;
     padding-top: 30px;
   }
-  #on-text{
+
+  #on-text {
     color: white;
     margin: auto;
     text-align: center;
     font-size: 30px;
   }
-  #on-text2{
+
+  #on-text2 {
     margin-top: 20px;
     color: white;
     margin: auto;
@@ -191,17 +195,19 @@ canvas {
     font-size: 25px;
     text-decoration: none;
   }
-  .mob-div{
+
+  .mob-div {
     margin: auto;
     text-align: center;
     padding-top: 30px;
   }
-  #head{
+
+  #head {
     font-size: 22px;
     padding-left: 20px;
   }
 
-  #body{
+  #body {
     font-size: 18px;
     padding-left: 20px;
   }
