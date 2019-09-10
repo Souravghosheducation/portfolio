@@ -4,7 +4,8 @@ body {
   background-color: black;
   font-family: 'Bai Jamjuree', sans-serif;
 }
-.heading{
+
+.heading {
   width: 100%;
   margin: auto;
   overflow: hidden;
@@ -14,23 +15,26 @@ body {
   padding-left: 20px;
   padding-top: 10px;
 }
-.spacer{
+
+.spacer {
   z-index: -1;
   width: 100%;
   margin: auto;
   height: 60px;
 }
-.sub-heading{
+
+.sub-heading {
   width: 100%;
   margin: auto;
 }
-#pj-1{
+
+#pj-1 {
   color: white;
-    margin-left: 18%;
+  margin-left: 18%;
   font-size: 50px;
 }
 
-.back{
+.back {
   height: 60px;
   width: 50px;
   float: left;
@@ -40,7 +44,6 @@ body {
   background-position: center;
   cursor: pointer;
 }
-
 
 .sub-wrappermain {
   width: 100%;
@@ -81,7 +84,6 @@ body {
   overflow: hidden;
   background-color: #00000000;
   padding: 20%;
-
 }
 
 .sub-wrap1:hover {
@@ -103,10 +105,12 @@ body {
   -webkit-animation: fade-in 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
   animation: fade-in 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
 }
+
 .sub-wrap3 {
   -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
   animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
 }
+
 .sub-wrap2 {
   -webkit-animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
   animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
@@ -157,35 +161,34 @@ body {
     flex-direction: column;
     height: 1200px;
   }
-
 }
 
-
-@media (max-width: 430px){
-  .sub-wrap1, .sub-wrap2, .sub-wrap3{
+@media (max-width: 430px) {
+  .sub-wrap1, .sub-wrap2, .sub-wrap3 {
     display: flex;
     width: 320px;
   }
 }
 
-@media (max-width: 1370px){
+@media (max-width: 1370px) {
   .sub-heading {
-     width: 100%;
-     margin: auto;
-     margin-top: -90px;
-   }
+    width: 100%;
+    margin: auto;
+    margin-top: -90px;
+  }
 
-     .sub-wrap {
+  .sub-wrap {
     padding: 50px;
     padding-top: 7%;
   }
-
 }
-@media (max-width: 700px){
-  .sub-wrap{
-    padding: 0px ;
+
+@media (max-width: 700px) {
+  .sub-wrap {
+    padding: 0px;
   }
+
   #pj-1 {
     padding-left: 5%;
-}
+  }
 }
