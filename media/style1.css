@@ -1,13 +1,15 @@
-body{
+body {
   padding: 0px;
   margin: 0px;
   font-family: 'Bai Jamjuree', sans-serif;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
-.back{
+
+.back {
   height: 60px;
   width: 50px;
   float: left;
@@ -17,14 +19,16 @@ a{
   background-position: center;
   cursor: pointer;
 }
-.place-holder{
+
+.place-holder {
   width: 100%;
   overflow: hidden;
   margin: auto;
   margin-top: 50px;
   background-color: white;
 }
-.holder{
+
+.holder {
   width: 100%;
   margin: auto;
   height: 700px;
@@ -32,41 +36,47 @@ a{
   display: flex;
   flex-direction: column;
 }
-.main-name{
+
+.main-name {
   width: 100%;
   overflow: hidden;
   background-color: white;
 }
-.holder{
+
+.holder {
   width: 90%;
   margin: auto;
-
 }
-.sub-holder{
+
+.sub-holder {
   width: 100%;
   overflow: hidden;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-.main-info{
+
+.main-info {
   width: 100%;
   overflow: hidden;
   background-color: #ffffff00;
 }
-.main-info1{
+
+.main-info1 {
   width: 100%;
   overflow: hidden;
   background-color: white;
   display: flex;
 }
-.button2{
+
+.button2 {
   width: 100%;
   height: 60px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
-.fas{
+
+.fas {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -77,161 +87,175 @@ a{
   margin: 0px;
 }
 
-#info2019{
+#info2019 {
   margin-top: 20px;
   font-size: 30px;
+}
 
-  }
-  #loc{
-    font-size: 25px;
-    margin: 0px;
-    margin-left: 10px;
-    font-family: 'Bai Jamjuree', sans-serif;
-  }
-  #loc1{
-    font-size: 25px;
-  }
-  .but-wrap{
-    float: right;
-    width: 400px;
-    overflow: hidden;
-    display: flex;
-  }
-  .pro{
-     width: 45%;
-     margin: auto;
-     height: 61px;
-     border: 1px solid black;
-     text-align: center;
-     transition: 0.6S;
-  }
-  .pro:hover{
-    border: 1px solid black;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-  .res:hover{
+#loc {
+  font-size: 25px;
+  margin: 0px;
+  margin-left: 10px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#loc1 {
+  font-size: 25px;
+}
+
+.but-wrap {
+  float: right;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+}
+
+.pro {
+  width: 45%;
+  margin: auto;
+  height: 61px;
+  border: 1px solid black;
+  text-align: center;
+  transition: 0.6S;
+}
+
+.pro:hover {
   border: 1px solid black;
   border-radius: 30px;
   cursor: pointer;
 }
-  .res{
-    width: 45%;
-    margin: auto;
-    height: 61px;
-    border: 1px solid black;
-    text-align: center;
-    transition: 0.6S;
-  }
-  #inside-box{
-    font-size: 20px;
-    transition: 0.6s;
-    padding: none;
-    margin: none;
-  }
-  #inside-box1{
+
+.res:hover {
+  border: 1px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.res {
+  width: 45%;
+  margin: auto;
+  height: 61px;
+  border: 1px solid black;
+  text-align: center;
+  transition: 0.6S;
+}
+
+#inside-box {
   font-size: 20px;
   transition: 0.6s;
   padding: none;
   margin: none;
-  }
-
- .but-wrap {
- -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
-         animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
 }
+
+#inside-box1 {
+  font-size: 20px;
+  transition: 0.6s;
+  padding: none;
+  margin: none;
+}
+
+.but-wrap {
+  -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+}
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
-
-
 
 #loc {
--webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.3s both;
-        animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.3s both;
+  -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.3s both;
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.3s both;
 }
 
- .main-name, .main-info {
- -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-         animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+.main-name, .main-info {
+  -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 @-webkit-keyframes fade-in {
- 0% {
-   opacity: 0;
- }
- 100% {
-   opacity: 1;
- }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @keyframes fade-in {
- 0% {
-   opacity: 0;
- }
- 100% {
-   opacity: 1;
- }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
-
-
-
 
 .fas {
-	-webkit-animation: fade-in-top .8s cubic-bezier(0.390, 0.575, 0.565, 1.000) .8s both;
-	        animation: fade-in-top .8s cubic-bezier(0.390, 0.575, 0.565, 1.000) .8s both;
+  -webkit-animation: fade-in-top .8s cubic-bezier(0.390, 0.575, 0.565, 1.000) .8s both;
+  animation: fade-in-top .8s cubic-bezier(0.390, 0.575, 0.565, 1.000) .8s both;
 }
 
 @-webkit-keyframes fade-in-top {
   0% {
     -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    transform: translateY(-50px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-top {
   0% {
     -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    transform: translateY(-50px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
 
-@media (max-width: 1400px){
-  .holder{
+@media (max-width: 1400px) {
+  .holder {
     height: 500px;
   }
 }
-@media (max-width: 600px){
-  .but-wrap{
+
+@media (max-width: 600px) {
+  .but-wrap {
     margin: auto;
     width: 100%;
   }
-
 }
-@media (max-width: 500px){
+
+@media (max-width: 500px) {
   #no-dis {
     display: none;
   }
