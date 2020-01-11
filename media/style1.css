@@ -1,7 +1,44 @@
+html {
+  background-color: black;
+}
 body {
   padding: 0px;
   margin: 0px;
   font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#linkok{
+  color: white;
+}
+#be{
+  color: white;
+  font-size: 1.5rem;
+}
+.icon{
+  display: flex;
+  float: right;
+  width: 40% auto;
+}
+#topl{
+  color: black;
+}
+.dribbble{
+  overflow: hidden;
+  padding: 5px;
+  background-color: black;
+  margin-right: 10px;
+}
+.behance{
+  overflow: hidden;
+  padding: 5px;
+  background-color: black;
+  margin-right: 10px;
+}
+.github{
+  overflow: hidden;
+  padding: 5px;
+  background-color: black;
+  margin-right: 10px;
 }
 
 @media (max-width: 370px) {
@@ -12,7 +49,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .back {
@@ -31,14 +68,14 @@ a {
   overflow: hidden;
   margin: auto;
   margin-top: 50px;
-  background-color: white;
+  background-color: black;
 }
 
 .holder {
   width: 100%;
   margin: auto;
   height: 700px;
-  background-color: white;
+  background-color: black;
   display: flex;
   flex-direction: column;
 }
@@ -46,7 +83,7 @@ a {
 .main-name {
   width: 100%;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
 .holder {
@@ -71,7 +108,7 @@ a {
 .main-info1 {
   width: 100%;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   display: flex;
 }
 
@@ -91,11 +128,13 @@ a {
   font-size: 65px;
   font-weight: 700;
   margin: 0px;
+  color: white;
 }
 
 #info2019 {
   margin-top: 20px;
   font-size: 30px;
+  color: white;
 }
 
 #loc {
@@ -103,10 +142,12 @@ a {
   margin: 0px;
   margin-left: 10px;
   font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
 }
 
 #loc1 {
   font-size: 25px;
+  color: white;
 }
 
 .but-wrap {
@@ -120,7 +161,7 @@ a {
   width: 45%;
   margin: auto;
   height: 61px;
-  border: 1px solid black;
+  border: 1px solid white;
   text-align: center;
   transition: 0.6S;
   margin-right: 10px;
@@ -130,13 +171,13 @@ a {
 }
 
 .pro:hover {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   cursor: pointer;
 }
 
 .res:hover {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   cursor: pointer;
 }
@@ -145,7 +186,7 @@ a {
   width: 45%;
   margin: auto;
   height: 61px;
-  border: 1px solid black;
+  border: 1px solid white;
   text-align: center;
   transition: 0.6S;
   margin-right: 10px;
@@ -272,5 +313,10 @@ a {
 @media (max-width: 500px) {
   #no-dis {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .icon {
+    padding-bottom: 10px;
   }
 }
