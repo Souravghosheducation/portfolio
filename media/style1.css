@@ -314,6 +314,9 @@ a {
   #no-dis {
     display: none;
   }
+  #inside-box {
+    font-size: 18px;
+  }
 }
 @media (max-width: 480px) {
   .icon {
