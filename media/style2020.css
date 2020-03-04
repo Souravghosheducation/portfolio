@@ -1,0 +1,163 @@
+.backo{
+  width: 60px;
+  height: 60px;
+}
+.b1io{
+  width: 60px;
+  height: 60px;
+}
+.butwrap1{
+  margin: auto;
+}
+
+.linbut{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#bio{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+
+.backio{
+  width: 60px;
+  height: 60px;
+  background-image: url(back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
+.hugwrap{
+  margin:  auto;
+  display: contents;
+}
+
+.linbut, .nav {
+  margin: auto;
+  width: 600px;
+}
+
+
+
+body{
+  background-color: #000000;
+  width: 100%;
+  margin: auto;
+}
+
+
+.butwrap{
+  margin: auto;
+}
+button {
+  padding: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 1px solid white;
+  border-color: white;
+  margin: auto;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: 1s;
+}
+
+button.cat-red {
+  background: #000000;
+}
+
+button.cat-red:hover {
+  border-radius: 50px;
+  
+}
+
+button.cat-green {
+  background: #000000;
+}
+
+button.cat-green:hover {
+  border-radius: 50px;
+}
+
+button.cat-blue {
+  background: rgb(0, 0, 0);
+}
+
+button.cat-blue:hover {
+  border-radius: 50px;
+}
+
+button.cat-all {
+  background: rgb(0, 0, 0);
+}
+
+button.cat-all:hover {
+  border-radius: 50px;
+}
+.card{
+  margin: 10px;}
+
+
+#redok{
+  margin: auto;
+  padding: 10px;
+  
+}
+#mar{
+  margin: auto;
+  width: 80%;
+}
+
+
+#cf{
+  margin: auto;
+  width: 100%;
+}
+.cat-red {
+  background: #000000;
+}
+
+.cat-green {
+  background: #000000;
+}
+
+.cat-blue {
+  background: #000000;
+}
+
+.row .col {
+  opacity: 0;
+  display: none;
+}
+
+.row .col.active {
+  opacity: 1;
+  display: block;
+  -webkit-animation: fadeIn 0.65s ease forwards;
+  animation: fadeIn 0.65s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ 
+
