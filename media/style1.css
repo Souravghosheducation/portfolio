@@ -327,3 +327,11 @@ a {
     padding-bottom: 10px;
   }
 }
+@media (max-width: 420px) {
+  #linkok {
+    font-size: 14px;
+}
+#be {
+  font-size: 1.2rem;
+}
+}
