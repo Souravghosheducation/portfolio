@@ -42,7 +42,7 @@ margin: 0px;
 .backio{
   width: 60px;
   height: 60px;
-  background-image: url(back.png);
+  background-image: url(media/back.png);
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
