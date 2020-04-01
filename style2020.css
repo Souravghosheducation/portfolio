@@ -185,3 +185,18 @@ button.cat-all:hover {
 }
  
 
+@media only screen and (max-width: 550px){
+  button {
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-color: white;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: 1s;
+    font-size: 12px;
+  }
+}
