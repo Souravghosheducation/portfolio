@@ -200,3 +200,8 @@ button.cat-all:hover {
     font-size: 12px;
   }
 }
+
+@media only screen and (max-width: 550px){
+  #mar {
+     width: 80% !important;
+}

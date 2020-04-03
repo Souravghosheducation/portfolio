@@ -1,13 +1,4 @@
-@media (max-width: 1200px) {
-  #hidea1 {
-    display: none !important;
-  }
-}
-@media (min-width: 1200px) {
-  #hidea2 {
-    display: none !important;
-  }
-}
+
 
 html {
   background-color: black;
