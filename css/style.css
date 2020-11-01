@@ -38,7 +38,9 @@ font-weight: 600;
     background: -webkit-linear-gradient(left, #BB0048, #FF3232);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
  }
+
  #be{
     background: -webkit-linear-gradient(left,#004EB3, #5797eb);
     -webkit-background-clip: text;
