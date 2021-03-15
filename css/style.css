@@ -1,18 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+
+
 body{
     margin: auto;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(12, 12, 12);
     padding: 0px;
     margin: 0px;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Lusitana', serif;
 
 }
+ 
 
 
  .mainsec{
      width: 100% auto;
-     background-color: rgb(243, 243,  243)40);
+     background-color: rgb(12, 12, 12);
      padding: 20px;
-     margin-top: 10%;
+     margin-top: 4%;
      
  }
  .sec1{
@@ -21,8 +26,8 @@ body{
     justify-content: center;
 }
 .text{
-    font-size: 28px ;
-font-weight: 600;
+    font-size: 28px;
+color: rgb(230, 230, 230);
 }
 
  .sec2{
@@ -35,24 +40,24 @@ font-weight: 600;
      margin: 5px;
  }
  #dr{
-    background: -webkit-linear-gradient(left, #BB0048, #FF3232);
+    background: -webkit-linear-gradient(left, #f73b83, #dd0e0e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
  }
 
  #be{
-    background: -webkit-linear-gradient(left,#004EB3, #5797eb);
+    background: -webkit-linear-gradient(left,#006eff, #69aaff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
  #li{
-    background: -webkit-linear-gradient(left,#0049A1, #4879B3);
+    background: -webkit-linear-gradient(left,#b65cff, #66abff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
  #re{
-    background: -webkit-linear-gradient(left, #6c0086, #ff0000 );
+    background: -webkit-linear-gradient(left, #ff9100, #ff2c2c );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
@@ -61,10 +66,18 @@ font-weight: 600;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
+ .secc4{
+    width: 500px;
+    height: 250px;
+    background-image: url('aa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
  .secc3{
      width: 500px;
      height: 250px;
-     background-image: url('aa.png');
+     background-image: url('cc.png');
      background-repeat: no-repeat;
      background-position: center;
      background-size: contain;
@@ -72,7 +85,7 @@ font-weight: 600;
  .secc2{
     width: 500px;
     height: 250px;
-    background-image: url('cc.png');
+    background-image: url('bb.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -80,7 +93,7 @@ font-weight: 600;
 .secc1{
     width: 500px;
     height: 250px;
-    background-image: url('bb.png');
+    background-image: url('dd.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
