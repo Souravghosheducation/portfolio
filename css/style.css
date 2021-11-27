@@ -62,7 +62,7 @@ color: rgb(230, 230, 230);
     -webkit-text-fill-color: transparent;
  }
  #so{
-    background: -webkit-linear-gradient(left,#f02008, #ffaf63);
+    background: -webkit-linear-gradient(left,#08d5f0, #00d640);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
@@ -85,7 +85,7 @@ color: rgb(230, 230, 230);
  .secc2{
     width: 500px;
     height: 250px;
-    background-image: url('bb.png');
+    background-image: url('dd.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -93,7 +93,7 @@ color: rgb(230, 230, 230);
 .secc1{
     width: 500px;
     height: 250px;
-    background-image: url('dd.png');
+   background-image: url('ee.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
