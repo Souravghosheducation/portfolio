@@ -20,11 +20,7 @@ body{
      margin-top: 4%;
      
  }
- .sec1{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
+
 .text{
     font-size: 28px;
 color: rgb(230, 230, 230);
