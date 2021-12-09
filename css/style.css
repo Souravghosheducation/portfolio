@@ -26,6 +26,11 @@ body{
 color: rgb(230, 230, 230);
 }
 
+
+.sec2{
+    display: flex;
+    justify-content: center;
+} 
  .sec2{
      width: 80% auto;
      display: flex;
