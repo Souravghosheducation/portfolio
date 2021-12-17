@@ -68,6 +68,14 @@ color: rgb(230, 230, 230);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
+ .secc5{
+    width: 500px;
+    height: 250px;
+    background-image: url('ff.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
  .secc4{
     width: 500px;
     height: 250px;
