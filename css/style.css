@@ -1,29 +1,36 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+ 
 
 body{
     margin: auto;
-    background-color: rgb(12, 12, 12);
+    background-color: #fff9f0;
     padding: 0px;
     margin: 0px;
-    font-family: 'Lusitana', serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 
 }
- 
+.mainheading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(26, 26, 26);
+    padding-bottom: 26px;
+}
 
 
  .mainsec{
      width: 100% auto;
-     background-color: rgb(12, 12, 12);
      padding: 20px;
      margin-top: 4%;
      
  }
 
 .text{
-    font-size: 28px;
-color: rgb(230, 230, 230);
+    font-size: 18px;
+color: rgb(26, 26, 26);
 }
 
 
@@ -42,32 +49,40 @@ color: rgb(230, 230, 230);
      margin: 5px;
  }
  #dr{
-    background: -webkit-linear-gradient(left, #f73b83, #dd0e0e);
+    background: -webkit-linear-gradient(left, #ff1a72, #da0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
  }
 
  #be{
-    background: -webkit-linear-gradient(left,#006eff, #69aaff);
+    background: -webkit-linear-gradient(left,#0050b8, #4596ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
  #li{
-    background: -webkit-linear-gradient(left,#b65cff, #66abff);
+    background: -webkit-linear-gradient(left,#9615ff, #1780ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
  #re{
-    background: -webkit-linear-gradient(left, #ff9100, #ff2c2c );
+    background: -webkit-linear-gradient(left, #ec8600, #ee0000 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
  #so{
-    background: -webkit-linear-gradient(left,#08d5f0, #00d640);
+    background: -webkit-linear-gradient(left,#00aec5, #00992e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
+ .secc6{
+    width: 500px;
+    height: 250px;
+    background-image: url('gg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
  .secc5{
     width: 500px;
     height: 250px;
